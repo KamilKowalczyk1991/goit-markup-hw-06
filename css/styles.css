@@ -523,6 +523,7 @@ address .link {
   color: #ffffff;
 }
 
+
 .form-input {
   padding-left: 38px;
   width: 100%;
@@ -770,7 +771,7 @@ input:focus {
   }
 
   .icon-menu {
-    display: block;
+    display: none;
   }
 
   .hero {
@@ -842,4 +843,67 @@ input:focus {
   .portfolio-card {
     width: 100%;
   }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office-mobile.jpg);
+    max-width: 320px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 0 auto;
+    background-color: rgb(46, 47, 66);
+  }
+
+  .footer {
+    padding: 96px 0;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .footer-text {
+    margin: 0;
+  }
+
+  .form-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .media {
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    padding: 0 86px;
+  }
+
+  .socials {
+    max-width: 320px;
+    text-align: center;
+  }
+  .form {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 288px;
+  }
+
+  .sub-btn {
+    margin: 16px auto;
+    width: 165px;
+    padding: 0;
+  }
+
+  .input {
+    box-shadow: 0px 4px 4px 0px #00000026;
+    ;
+  }
+
 }
