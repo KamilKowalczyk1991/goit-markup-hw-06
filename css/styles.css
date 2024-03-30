@@ -1018,7 +1018,7 @@ input:focus {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1439.9px) {
+@media (min-width: 768px) and (max-width: 1157.9px) {
   .container {
     width: 768px;
   }
@@ -1136,7 +1136,7 @@ input:focus {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1439.9px) {
+@media (min-width: 768px) and (max-width: 1157.9px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1146,7 +1146,7 @@ input:focus {
   }
 }
 
-@media (min-resolution: 192dpi) and (min-width: 1440px) {
+@media (min-resolution: 192dpi) and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
