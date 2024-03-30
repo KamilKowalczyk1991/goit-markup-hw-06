@@ -55,7 +55,7 @@
             <li>
               <a
                 href="./index.html"
-                class="link link-one"
+                class="link link-one current"
                 >Studio</a
               >
             </li>
@@ -493,6 +493,13 @@
                       ./images/banking-app-mobile2x.jpg 2x
                     "
                   />
+                  <source
+                    media="(min-width: 768px) and (max-width: 1439.9px)"
+                    srcset="
+                      ./images/banking-app-tablet.jpg,
+                      ./images/banking-app-tablet2x.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/banking-app.jpg"
                     alt="Banking App"
@@ -521,7 +528,13 @@
                       ./images/cashless-payment-mobile2x.jpg 2x
                     "
                   />
-
+                  <source
+                    media="(min-width: 768px) and (max-width: 1439.9px)"
+                    srcset="
+                      ./images/cashless-payment-tablet.jpg,
+                      ./images/cashless-payment-tablet2x.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/cashless-payment.jpg"
                     alt="Cashless Payment"
@@ -550,7 +563,13 @@
                       ./images/meditation-app-mobile2x.jpg 2x
                     "
                   />
-
+                  <source
+                    media="(min-width: 768px) and (max-width: 1439.9px)"
+                    srcset="
+                      ./images/meditation-app-tablet.jpg,
+                      ./images/meditation-app-tablet2x.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/meditation-app.jpg"
                     alt="Meditation App "
@@ -579,7 +598,13 @@
                       ./images/taxi-service-mobile2x.jpg 2x
                     "
                   />
-
+                  <source
+                    media="(min-width: 768px) and (max-width: 1439.9px)"
+                    srcset="
+                      ./images/taxi-service-tablet.jpg,
+                      ./images/taxi-service-tablet2x.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/taxi-service.jpg"
                     alt="Taxi Service"
@@ -608,7 +633,13 @@
                       ./images/screen-illustrations-mobile2x.jpg 2x
                     "
                   />
-
+                  <source
+                    media="(min-width: 768px) and (max-width: 1439.9px)"
+                    srcset="
+                      ./images/screen-illustrations-tablet.jpg,
+                      ./images/screen-illustrations-tablet2x.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/screen-illustrations.jpg"
                     alt="Screen Illustrations"
@@ -637,7 +668,13 @@
                       ./images/online-courses-mobile2x.jpg 2x
                     "
                   />
-
+                  <source
+                  media="(min-width: 768px) and (max-width: 1439.9px)"
+                  srcset="
+                    ./images/online-courses-tablet.jpg,
+                    ./images/online-courses-tablet2x.jpg 2x
+                  "
+                />
                   <img
                     src="./images/online-courses.jpg"
                     alt="Online Courses"
@@ -895,64 +932,120 @@
       </div>
     </div>
 
-    <div class="menu-mobile">
-      <div class="container-mobile">
-        <nav class="nav-mobile">
+    <div class="container-mobile">
+      <nav class="nav-mobile">
+        <a
+          href="#"
+          class="close-button"
+        >
+          <svg
+            width="8"
+            height="8"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </a>
+        <ul class="nav-list-mobile">
+          <li>
+            <a
+              href="./index.html"
+              class="link-mobile link-one-mobile"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="link-mobile"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="link-mobile"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <address class="address-mobile">
+        <ul class="address-list-mobile">
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              class="link-address-mobile"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="tel:+110001111111"
+              class="link-address-mobile"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="team-icons-conteiner">
+        <li class="icons">
           <a
-            href="#"
-            class="icon-menu"
+            href=""
+            class="team-icons"
           >
             <svg
+              class="social-media"
               width="24"
               height="24"
             >
-              <use href="./images/icons.svg#icon-close"></use>
+              <use href="./images/icons.svg#icon-instagram-2"></use>
             </svg>
           </a>
-          <ul class="nav-list-mobile">
-            <li>
-              <a
-                href="./index.html"
-                class="link-mobile link-one-mobile"
-                >Studio</a
-              >
-            </li>
-            <li>
-              <a
-                href=""
-                class="link-mobile"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a
-                href=""
-                class="link-mobile"
-                >Contacts</a
-              >
-            </li>
-          </ul>
-        </nav>
-
-        <address class="address-mobile">
-          <ul class="address-list-mobile">
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="link-address-mobile"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a
-                href="tel:+110001111111"
-                class="link-address-mobile"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+        </li>
+        <li class="icons">
+          <a
+            href=""
+            class="team-icons"
+          >
+            <svg
+              class="social-media"
+              width="24"
+              height="24"
+            >
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icons">
+          <a
+            href=""
+            class="team-icons"
+          >
+            <svg
+              class="social-media"
+              width="24"
+              height="24"
+            >
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icons">
+          <a
+            href=""
+            class="team-icons"
+          >
+            <svg
+              class="social-media"
+              width="24"
+              height="24"
+            >
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
