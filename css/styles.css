@@ -940,7 +940,15 @@ input:focus {
     color: #404bbf;
   }
 
+  .e-mail {
+    color: #434455;
+margin-bottom: 24px;
+  }
+
   .address-list-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -949,11 +957,8 @@ input:focus {
     text-align: left;
     padding-top: 168px;
     padding-left: 16px;
-
     top: 440px;
     left: 16px;
-    opacity: 0px;
-
     margin-bottom: 48px;
   }
 
@@ -963,6 +968,9 @@ input:focus {
 
   .link-address-mobile {
     text-decoration: none;
+  }
+  .address-list-mobile {
+    gap: 24px;
   }
 
   .menu-icons {
@@ -1008,7 +1016,7 @@ input:focus {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1157.9px) {
   .container {
     width: 768px;
   }
@@ -1136,7 +1144,7 @@ input:focus {
   }
 }
 
-@media (min-resolution: 192dpi) and (min-width: 767.9px) {
+@media (min-resolution: 192dpi) and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
