@@ -775,7 +775,7 @@ input:focus {
   }
 
   .logo {
-    padding: 16px;
+    padding: 16px 0;
     margin: 0;
   }
 
@@ -942,7 +942,7 @@ input:focus {
 
   .e-mail {
     color: #434455;
-margin-bottom: 24px;
+    margin-bottom: 24px;
   }
 
   .address-list-mobile {
